@@ -3,7 +3,7 @@
 This project demostrates how you can use Firebase with Saga. In this project I demostrated uploading of video with its progress and fetching back uploaded videos to display them.
 
 I have removed firebase config for privacy reasons. Please use your Firebase project configuration while testing this project. 
-
+```
 Structure of the application is as follows:
 
 config --> this contains Firebase configuration file.
@@ -15,7 +15,7 @@ store --> contains
     index.js --> contains watcher saga.
 
 Index.js --> Main index file which configures and make available store, reducuers in whole application.
-
+```
 Please excuse me if you don't find the file names proper.
 
 ## Main agenda of this project is to demonstrate the use of Saga's event channel which is used to bridge between 3rd party events to saga events.
