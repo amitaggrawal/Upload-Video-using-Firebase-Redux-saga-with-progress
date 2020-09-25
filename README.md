@@ -7,7 +7,8 @@ I have removed firebase config for privacy reasons. Please use your Firebase pro
 Structure of the application is as follows:
 
 config --> this contains Firebase configuration file.
-Page/Pattern Discovery --> this contains JSX page which provides the functionality to uplaod and view uploaded videos. NOTE: Drag and Drop functionality is also integrated for uploading videos.
+Page/Pattern Discovery --> this contains JSX page which provides the functionality to uplaod and view uploaded videos. 
+NOTE: Drag and Drop functionality is also integrated for uploading videos.
 store --> contains 
   actions --> this contains action generator file.
   reducers --> this contains reduer file.
